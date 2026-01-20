@@ -1,0 +1,79 @@
+.footer {
+  background-color: #111827;
+  color: white;
+  padding: 3rem 0;
+  margin-top: 4rem;
+}
+
+.footerContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footerGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.footerBrand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.footerBrandText {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.footerDescription {
+  color: #9ca3af;
+}
+
+.footerTitle {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footerList {
+  list-style: none;
+}
+
+.footerListItem {
+  margin-bottom: 0.5rem;
+}
+
+.footerLink {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footerLink:hover {
+  color: white;
+}
+
+.footerContact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #9ca3af;
+  margin-bottom: 0.5rem;
+}
+
+.footerBottom {
+  border-top: 1px solid #374151;
+  padding-top: 2rem;
+  text-align: center;
+  color: #9ca3af;
+}

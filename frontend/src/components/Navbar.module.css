@@ -1,0 +1,163 @@
+.navbar {
+  background: linear-gradient(to right, #9333ea, #ec4899);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbarContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.navbarMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.logoIcon {
+  background: white;
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.logoText {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.searchForm {
+  flex: 1;
+  max-width: 600px;
+  margin: 0 2rem;
+  position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.75rem 3rem 0.75rem 1rem;
+  border-radius: 9999px;
+  border: none;
+  font-size: 1rem;
+}
+
+.searchInput:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+.searchButton {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.cartIcon {
+  position: relative;
+}
+
+.cartBadge {
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  background-color: #ef4444;
+  color: white;
+  border-radius: 50%;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: none;
+}
+
+.mobileSearch {
+  margin-top: 1rem;
+  position: relative;
+}
+
+.mobileMenu {
+  background-color: rgba(126, 34, 206, 0.95);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+}
+
+.mobileMenuList {
+  list-style: none;
+}
+
+.mobileMenuItem {
+  padding: 0.75rem 0;
+}
+
+.mobileMenuLink {
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.mobileMenuLink:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 768px) {
+  .searchForm {
+    display: none;
+  }
+  
+  .navLinks {
+    display: none;
+  }
+  
+  .menuButton {
+    display: block;
+  }
+}

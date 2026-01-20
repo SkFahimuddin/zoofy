@@ -1,0 +1,112 @@
+.authPage {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f3e8ff, #fce7f3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.authContainer {
+  max-width: 28rem;
+  width: 100%;
+}
+
+.authHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.authBrand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.authLogoIcon {
+  background-color: #9333ea;
+  border-radius: 50%;
+  padding: 0.75rem;
+  font-size: 1.875rem;
+}
+
+.authLogoText {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.authTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.authSubtitle {
+  color: #6b7280;
+}
+
+.authCard {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+}
+
+.authForm {
+  margin-bottom: 1.5rem;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 0.75rem;
+  top: 0.75rem;
+  color: #9ca3af;
+}
+
+.inputWithIcon input {
+  padding-left: 2.5rem;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #9333ea;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #7e22ce;
+}
+
+.submitButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.authFooter {
+  text-align: center;
+  color: #6b7280;
+}
+
+.authLink {
+  color: #9333ea;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.authLink:hover {
+  color: #7e22ce;
+}
